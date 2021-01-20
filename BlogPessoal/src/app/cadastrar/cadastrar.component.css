@@ -1,0 +1,9 @@
+#img-bg{
+  background-image: url('https://media.istockphoto.com/photos/black-and-white-colourclose-up-fingers-typing-on-the-computer-picture-id1047951828?k=6&m=1047951828&s=170667a&w=0&h=9SKefXT1mVnxjKYRBRsI4vyYhKmWOmAl_n_OGdC38Ko=');
+
+  min-height: 800px;
+
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
