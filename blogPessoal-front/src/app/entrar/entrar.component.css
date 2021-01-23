@@ -1,0 +1,9 @@
+#img-bg{
+  background-image: url('https://thumbs.dreamstime.com/b/estilo-preto-e-branco-da-cor-do-bloco-de-notas-e-do-computador-59426910.jpg');
+
+  min-height: 800px;
+
+  background-position: center ;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
