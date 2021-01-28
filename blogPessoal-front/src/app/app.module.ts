@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import {HttpClientModule } from '@angular/common/http'// importe feito na mão
 import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common'
+
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
@@ -34,7 +36,10 @@ import { InicioComponent } from './inicio/inicio.component';
     FormsModule
 
   ],
-  providers: [],
+  providers: [{
+    provide: LocationStrategy,
+    useClass: HashLocationStrategy
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
